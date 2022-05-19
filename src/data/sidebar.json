@@ -1,0 +1,82 @@
+[
+    {
+        "title": "General",
+        "icon": "bi-gear-fill",
+        "childrens": [
+            {
+                "title": "Home",
+                "icon": "bi-house-fill",
+                "path": "/"
+            },
+            {
+                "title": "About",
+                "icon": "bi-info-circle-fill",
+                "path": "/about"
+            },
+            {
+                "title": "Contact",
+                "icon": "bi-phone-fill",
+                "childrens": [
+                    {
+                        "title": "Facebook",
+                        "icon": "bi-facebook"
+                    },
+                    {
+                        "title": "Twitter",
+                        "icon": "bi-twitter"
+                    },
+                    {
+                        "title": "Instagram",
+                        "icon": "bi-instagram"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Statistics",
+        "icon": "bi bi-bar-chart-line-fill",
+        "childrens": [
+            {
+                "title": "Search",
+                "path": "/search"
+            },
+            {
+                "title": "History",
+                "path": "/history"   
+            }
+        ]
+    },
+    {
+        "title": "Calculator",
+        "icon": "bi bi-calculator",
+        "childrens": [
+            {
+                "title": "House",
+                "icon": "bi bi-boxes",
+                "path": "/house"
+            },
+            {
+                "title": "Flights",
+                "icon": "bi bi-boxes",
+                "path": "/flights"
+            },
+            {
+                "title": "Car",
+                "icon": "bi bi-boxes",
+                "path":"/car"
+            }
+            
+        ]
+    },
+    {
+        "title": "Support",
+        "icon": "bi-question-circle-fill",
+        "path": "/support"
+    },
+    {
+        "title": "Report Bug",
+        "icon": "bi-bug",
+        "path": "/report-bug"
+    }
+]
