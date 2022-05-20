@@ -39,10 +39,12 @@
         "childrens": [
             {
                 "title": "Search",
+                "icon": "bi bi-search",
                 "path": "/search"
             },
             {
                 "title": "History",
+                "icon": "bi bi-clock-history",
                 "path": "/history"   
             }
         ]
@@ -62,9 +64,9 @@
                 "path": "/house"
             },
             {
-                "title": "Flights",
+                "title": "Transports",
                 "icon": "bi bi-boxes",
-                "path": "/flights"
+                "path": "/transport"
             },
             {
                 "title": "Car",

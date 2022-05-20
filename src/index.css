@@ -34,6 +34,12 @@ body{
 .title{
   font-size: 3em;
 }
+
+.subtitle{
+  font-size :2em;
+  color:red;
+}
+
 .info{
   background-color: rgb(169, 233, 118);
   font-size: 1.1em;
