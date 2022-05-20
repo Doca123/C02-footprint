@@ -3,15 +3,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from './components/Sidebar'
 import Person from './components/person'
 import Transport from "./components/transport";
+import Home from "./components/home";
 
 function App() {
   return (
     <div className="main">
       <Sidebar />
       <div className="container">
-      <h1 className="title">CO2-footprint</h1>
+
 <BrowserRouter>
       <Routes>
+          <Route path="" element={<Home />} />
           <Route path="person" element={<Person />} />
           <Route path="transport" element={<Transport />} />
           </Routes>
