@@ -64,9 +64,9 @@
                 "path": "/house"
             },
             {
-                "title": "Flights",
+                "title": "Transports",
                 "icon": "bi bi-boxes",
-                "path": "/flights"
+                "path": "/transport"
             },
             {
                 "title": "Car",
