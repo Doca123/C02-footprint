@@ -1,0 +1,48 @@
+https://www.energetika-portal.si/statistika/ ---> SVE ZA ENERGETIKU
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1815410S.PX/table/tableViewLayout2/ ---> Energija za ogrevanje stanovanj
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1815453S.PX/table/tableViewLayout2/ ---> Ogrevanje stanovanj in sanitarne vode
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1815412S.PX/table/tableViewLayout2/ ---> Viri za ogrevanje stanovanj in sanitarne vode
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817601S.PX/table/tableViewLayout2/ ---> Električna energija (GWh), Slovenija, mesečno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817602S.PX/table/tableViewLayout2/ ---> Električna energija (GWh), Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817903S.PX/table/tableViewLayout2/ ---> Energetska bilanca (TJ), Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2221404S.PX/table/tableViewLayout2/ ---> porabljeno gorivo, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2222191S.PX/table/tableViewLayout2/ ---> Osebni avtomobili, avtobusi in tovorna vozila in prve registracije teh vozil glede na gorivo, Slovenija, 1992 - 2013
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1815455S.PX/table/tableViewLayout2/ ---> Povprečno število prevoženih kilometrov, poraba goriva na osebni avtomobil na leto in delež osebnih avtomobilov v gospodinjstvih [stara metodologija], Slovenija, 1996, 2002
+
+https://www.energetika-portal.si/pxweb/Dialog/Saveshow.asp ---> Energetska bilanca toplotne energije (TJ), Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1818001S.PX/table/tableViewLayout2/ ---> Trdna, tekoča in plinasta goriva, Slovenija, mesečno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1815406S.PX/table/tableViewLayout2/ ---> Končna poraba energije po namenu in vrsti energetskega vira (TJ), gospodinjstva, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/H031S.PX/table/tableViewLayout2/ ---> Poraba energije in goriv v gospodinjstvih (TJ) po energetskih virih, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817808S.PX/table/tableViewLayout2/ ---> Poraba energentov po namenih rabe, v izbranih proizvodnjih dejavnostih (SKD 2008), v TJ, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817802S.PX/table/tableViewLayout2/ ---> Energetska poraba goriv, električne energije in toplotne energije po dejavnosti (SKD 2008), v TJ, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817892S.PX/table/tableViewLayout2/ ---> Energetska poraba goriv, električne energije in toplotne energije po dejavnosti [SKD 2002], v TJ, Slovenija, 2003 - 2007
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817891S.PX/table/tableViewLayout2/ ---> Energetska poraba goriv, električne energije in toplotne energije po dejavnosti [SKD 2002], naravne enote, Slovenija, 2003 - 2007
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/H034S.PX/table/tableViewLayout2/ ---> Indeks cen (%) zemeljskega plina in električne energije (EU=100), Slovenija in EU, polletno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1815412S.PX/table/tableViewLayout2/ ---> Viri za ogrevanje stanovanj in sanitarne vode (TJ), gospodinjstva, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1818002S.PX/table/tableViewLayout2/ ---> Bilanca trdnih, tekočih in plinastih goriv, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1817801S.PX/table/tableViewLayout2/ ---> Energetska poraba goriv, električne energije in toplotne energije po dejavnosti (SKD 2008), naravne enote, Slovenija, letno
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1815453S.PX/table/tableViewLayout2/ ---> Ogrevanje stanovanj in sanitarne vode ter naprave za kuhanje po energetskih virih [%] [stara metodologija], Slovenija, 1996, 2002
+
+https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/1970712S.PX/table/tableViewLayout2/ ---> Število stavb, njihova gradbena velikost in stanovanja v njih, glede na vrsto stavbe, statistične regije, Slovenija, mesečno
+

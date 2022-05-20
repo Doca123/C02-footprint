@@ -48,9 +48,14 @@
         ]
     },
     {
-        "title": "Calculator",
+        "title": "Avrage in Slovenia",
         "icon": "bi bi-calculator",
         "childrens": [
+            {
+                "title": "Person",
+                "icon": "bi bi-boxes",
+                "path": "/person"
+            },
             {
                 "title": "House",
                 "icon": "bi bi-boxes",
