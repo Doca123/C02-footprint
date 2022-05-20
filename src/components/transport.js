@@ -1,7 +1,7 @@
 const Transport = () => {
     return (
-        <div><h2 className="subtitle">Average emissions of CO2 in Slovenia in trasport per year</h2>
-        <p className="info">CO2 emissions in average in Slovenia is -- 5 033 642 tons.</p>
+        <div><h2 className="subtitle">Average transport CO2 footprint</h2>
+        <p className="info">Slovenia CO2 Emissions for transport is -- 5 033 642 tons.</p>
         </div>
     )
     

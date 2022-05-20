@@ -59,19 +59,14 @@
                 "path": "/person"
             },
             {
-                "title": "House",
+                "title": "Buildings",
                 "icon": "bi bi-boxes",
-                "path": "/house"
+                "path": "/buildings"
             },
             {
                 "title": "Transports",
                 "icon": "bi bi-boxes",
                 "path": "/transport"
-            },
-            {
-                "title": "Car",
-                "icon": "bi bi-boxes",
-                "path":"/car"
             }
             
         ]

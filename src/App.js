@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar'
 import Person from './components/person'
 import Transport from "./components/transport";
 import Home from "./components/home";
+import Buildings from "./components/buildings";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
           <Route path="" element={<Home />} />
           <Route path="person" element={<Person />} />
+          <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />
           </Routes>
     </BrowserRouter>
