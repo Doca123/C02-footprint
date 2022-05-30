@@ -46,6 +46,7 @@ body{
   letter-spacing: 1px;
   line-height: 1.5;
   margin: 1.5em;
+  border: 5px solid green;
   color:rgb(8, 7, 7);
 }
 .btn{
@@ -76,7 +77,7 @@ body{
   text-align: center;
   font-size: 25px;
   width: 900px;
-  border: 15px solid green;
+  border: 5px solid green;
   padding: 2em;
   margin: 100px;
 }
