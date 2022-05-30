@@ -5,6 +5,8 @@ import Person from './components/person'
 import Transport from "./components/transport";
 import Home from "./components/home";
 import Buildings from "./components/buildings";
+import About from "./components/About";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />
+          <Route path="about" element={<About />} />
           </Routes>
     </BrowserRouter>
         

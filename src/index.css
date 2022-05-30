@@ -71,6 +71,16 @@ body{
   overflow: auto;
 }
 
+.p-ekipa{
+  background-color:rgb(169, 233, 118);
+  text-align: center;
+  font-size: 25px;
+  width: 900px;
+  border: 15px solid green;
+  padding: 2em;
+  margin: 100px;
+}
+
 
 .sidebar-item{
   padding: .75em 1em;
