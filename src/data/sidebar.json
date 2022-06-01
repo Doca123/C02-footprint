@@ -38,9 +38,9 @@
         "icon": "bi bi-bar-chart-line-fill",
         "childrens": [
             {
-                "title": "Search",
+                "title": "Statistics",
                 "icon": "bi bi-search",
-                "path": "/search"
+                "path": "/stats"
             },
             {
                 "title": "History",

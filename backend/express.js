@@ -11,6 +11,23 @@ const db = mysql.createConnection({
 });
 
 
+app.post('/stats',(req,res)=>{
+
+    const name = req.body.name
+    const year = req.body.year
+
+    db.query(
+        "INSERT INTO stats (name, year) VALUES(?,?)",
+    [name,yaer], (err,result)=>{
+        if (err){
+            console.log(err)
+        } else{
+           res.send("Values inserted") 
+        }
+
+    });
+
+});
 
 app.listen(3001, ()=>{
 

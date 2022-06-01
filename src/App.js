@@ -9,6 +9,9 @@ import About from "./components/About";
 
 
 function App() {
+
+
+
   return (
     <div className="main">
       <Sidebar />
