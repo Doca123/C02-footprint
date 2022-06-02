@@ -81,6 +81,30 @@ app.get("/stats2", (req, res) => {
     });
   });
 
+
+  app.get("/stats4", (req, res) => {
+    db.query("SELECT * FROM delez_energije_za_ogrevanje_sanitarne_vode", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+  
+  app.get("/stats5", (req, res) => {
+    db.query("SELECT * FROM gorivo_cestni_javni_linijski_prevoz", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+
+
+
 app.listen(3001, () => {
   console.log("Your server is running on port 3001");
 });

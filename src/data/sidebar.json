@@ -48,17 +48,17 @@
                 "path": "/stats2"   
             },
             {
-                "title": "History",
+                "title": "Ogrevanje Prostorov",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats3"   
             },
             {
-                "title": "History",
+                "title": "Ogrevanje Vode",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats4"   
             },
             {
-                "title": "History",
+                "title": "Gorivo Cestni",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats5"   
             },

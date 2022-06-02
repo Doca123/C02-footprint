@@ -9,6 +9,8 @@ import About from "./components/About";
 import Energija from "./components/Energija";
 import EnergijaUvoz from "./components/EnergijaUvoz";
 import OgrevanjeProstorov from "./components/OgrajevanjeProstorov";
+import OgrevanjeVode from "./components/OgrevanjeVode";
+import GorivoCestni from "./components/GorivoCestni";
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
           <Route path="stats" element={<Energija />} />
           <Route path="stats2" element={<EnergijaUvoz />} />
           <Route path="stats3" element={<OgrevanjeProstorov />} />
+          <Route path="stats4" element={<OgrevanjeVode />} />
+          <Route path="stats5" element={<GorivoCestni />} />
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />
