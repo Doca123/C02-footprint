@@ -2,15 +2,15 @@ import { useState } from "react";
 import Axios from "axios";
 
 
-function Energija() {
+function LastnaRaba() {
   
 
-  const [energijaList, setEnergijaList] = useState([]);
+  const [LastnaRabaList, setLastnaRabaList] = useState([]);
 
   
-  const getEnergija = () => {
-    Axios.get("http://localhost:3001/stats").then((response) => {
-        setEnergijaList(response.data);
+  const getLastnaRaba = () => {
+    Axios.get("http://localhost:3001/stats6").then((response) => {
+        setLastnaRabaList(response.data);
     });
   };
 
@@ -19,19 +19,19 @@ function Energija() {
     <div className="App">
       <div className="information">
         
-       <h1>Izpis - Elektricna energija</h1>
+       <h1>Izpis - Lastna raba elektricne energije</h1>
       </div>
       <div className="energija">
-        <button onClick={getEnergija}>Elektricna energija</button>
+        <button onClick={getLastnaRaba}>Lastna raba</button>
 
-        {energijaList.map((val, key) => {
+        {LastnaRabaList.map((val, key) => {
           return (
             <div className="energiaj1">
               <div>
               
                 <h3>leto: {val.leto}</h3>
               
-                <h3>proizvodnja: {val.proizvodnja}</h3>
+                <h3>Lastna raba: {val.lastna_raba}</h3>
               </div>
               <div>
                 
@@ -46,4 +46,4 @@ function Energija() {
   );
 }
 
-export default Energija;
+export default LastnaRaba;

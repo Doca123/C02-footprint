@@ -11,6 +11,7 @@ import EnergijaUvoz from "./components/EnergijaUvoz";
 import OgrevanjeProstorov from "./components/OgrajevanjeProstorov";
 import OgrevanjeVode from "./components/OgrevanjeVode";
 import GorivoCestni from "./components/GorivoCestni";
+import LastnaRaba from "./components/LastnaRaba";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="stats3" element={<OgrevanjeProstorov />} />
           <Route path="stats4" element={<OgrevanjeVode />} />
           <Route path="stats5" element={<GorivoCestni />} />
+          <Route path="stats6" element={<LastnaRaba />} />
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />

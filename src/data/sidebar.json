@@ -63,7 +63,7 @@
                 "path": "/stats5"   
             },
             {
-                "title": "History",
+                "title": "Lastna raba",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats6"   
             }

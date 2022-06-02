@@ -19,10 +19,10 @@ function GorivoCestni() {
     <div className="App">
       <div className="information">
         
-       <h1>Izpis - Elektricna energija</h1>
+       <h1>Izpis - Gorivo cestni</h1>
       </div>
       <div className="energija">
-        <button onClick={getGorivoCestni}>Elektricna energija</button>
+        <button onClick={getGorivoCestni}>Gorivo cestni</button>
 
         {GorivoCestniList.map((val, key) => {
           return (

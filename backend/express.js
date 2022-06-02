@@ -102,6 +102,16 @@ app.get("/stats2", (req, res) => {
     });
   });
 
+  app.get("/stats6", (req, res) => {
+    db.query("SELECT * FROM lastna_raba_na_elektricna_energija", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
 
 
 

@@ -19,10 +19,10 @@ function OgrevanjeVode() {
     <div className="App">
       <div className="information">
         
-       <h1>Izpis - Elektricna energija</h1>
+       <h1>Izpis - Ogrevanje vode</h1>
       </div>
       <div className="energija">
-        <button onClick={getOgrevanjeVode}>Elektricna energija</button>
+        <button onClick={getOgrevanjeVode}>Ogrevanje vode</button>
 
         {OgrevanjeVodeList.map((val, key) => {
           return (
