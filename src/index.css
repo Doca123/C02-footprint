@@ -171,8 +171,8 @@ input {
 }
 
 .energiaj1 {
-  width: 500px;
-  height: 100px;
+  width: auto;
+  height: auto;
   border: 1px solid black;
   margin: 3px;
   display: flex;

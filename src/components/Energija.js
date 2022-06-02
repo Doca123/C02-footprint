@@ -9,22 +9,7 @@ function Energija() {
 
   const [energijaList, setEnergijaList] = useState([]);
 
-  const addEnergija = () => {
-    Axios.post("http://localhost:3001/create", {
-      leto: leto,
-      proizvodnja: proizvodnja,
-    }).then(() => {
-        setEnergijaList([
-        ...energijaList,
-        {
-          
-          leto: leto,
-          proizvodnja: proizvodnja,
-        },
-      ]);
-    });
-  };
-
+  
   const getEnergija = () => {
     Axios.get("http://localhost:3001/stats").then((response) => {
         setEnergijaList(response.data);

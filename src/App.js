@@ -8,6 +8,7 @@ import Buildings from "./components/buildings";
 import About from "./components/About";
 import Energija from "./components/Energija";
 import EnergijaUvoz from "./components/EnergijaUvoz";
+import OgrevanjeProstorov from "./components/OgrajevanjeProstorov";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="stats" element={<Energija />} />
           <Route path="stats2" element={<EnergijaUvoz />} />
+          <Route path="stats3" element={<OgrevanjeProstorov />} />
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />

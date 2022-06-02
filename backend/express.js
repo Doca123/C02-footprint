@@ -72,7 +72,7 @@ app.get("/stats2", (req, res) => {
 
 
   app.get("/stats3", (req, res) => {
-    db.query("SELECT * FROM gorivo_medkrajevni_javni_linijski_prevoz", (err, result) => {
+    db.query("SELECT * FROM delez_energije_za_ograjevanje_prostorov", (err, result) => {
       if (err) {
         console.log(err);
       } else {
