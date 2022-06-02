@@ -29,6 +29,17 @@ app.post('/stats',(req,res)=>{
 
 });
 
+app.get('/stats', (req,res)=>{
+    
+    db.query("SELECT * FROM elektricna_energija_vo_slovenija_letno", (err,result)=>{
+        if (err){
+            console.log(err)
+        }else{
+            res.send(result)
+        }
+    });
+});
+
 app.listen(3001, ()=>{
 
     console.log("running on port 3001 ");
