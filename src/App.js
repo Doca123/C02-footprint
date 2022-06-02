@@ -12,6 +12,8 @@ import OgrevanjeProstorov from "./components/OgrajevanjeProstorov";
 import OgrevanjeVode from "./components/OgrevanjeVode";
 import GorivoCestni from "./components/GorivoCestni";
 import LastnaRaba from "./components/LastnaRaba";
+import ElektricnaEnergijaIzvoz from "./components/ElektricnaEnergijaIzvoz";
+
 
 function App() {
 
@@ -27,6 +29,7 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="stats" element={<Energija />} />
           <Route path="stats2" element={<EnergijaUvoz />} />
+          <Route path="stats7" element={<ElektricnaEnergijaIzvoz />} />
           <Route path="stats3" element={<OgrevanjeProstorov />} />
           <Route path="stats4" element={<OgrevanjeVode />} />
           <Route path="stats5" element={<GorivoCestni />} />

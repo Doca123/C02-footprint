@@ -112,6 +112,26 @@ app.get("/stats2", (req, res) => {
     });
   });
 
+  app.get("/stats7", (req, res) => {
+    db.query("SELECT * FROM elektricna_energija_za_izvoz", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats8", (req, res) => {
+    db.query("SELECT * FROM lastna_raba_na_elektricna_energija", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
 
 
 

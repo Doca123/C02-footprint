@@ -48,6 +48,11 @@
                 "path": "/stats2"   
             },
             {
+                "title": "Elektricna Energija Izvoz",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats7"   
+            },
+            {
                 "title": "Ogrevanje Prostorov",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats3"   
@@ -63,6 +68,15 @@
                 "path": "/stats5"   
             },
             {
+                "title": "Lastna raba",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats6"   
+            },
+            {
+                "title": "Lastna raba",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats6"   
+            },{
                 "title": "Lastna raba",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats6"   
