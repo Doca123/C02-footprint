@@ -172,7 +172,7 @@ input {
 
 .energiaj1 {
   width: 500px;
-  height: auto;
+  height: 100px;
   border: 1px solid black;
   margin: 3px;
   display: flex;
