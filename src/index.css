@@ -171,12 +171,12 @@ input {
 }
 
 .energiaj1 {
-  width: 700px;
+  width: 500px;
   height: auto;
   border: 1px solid black;
-  margin: 10px;
+  margin: 3px;
   display: flex;
-  padding: 10px;
+  padding: 5px;
   font-family: 'Courier New', Courier, monospace;
 }
 

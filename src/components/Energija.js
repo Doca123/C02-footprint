@@ -1,11 +1,8 @@
 import { useState } from "react";
 import Axios from "axios";
 
-// employeeList = energijaList  setEmployeeList = setEnergijaList
-//addEmployee = addEnergija getEmployee = getEnergija
 
-
-function Stats() {
+function Energija() {
   
   const [leto, setLeto] = useState(0);
   const [proizvodnja, setProizvodnja] = useState(0);
@@ -39,21 +36,7 @@ function Stats() {
     <div className="App">
       <div className="information">
         
-        <label>Leto:</label>
-        <input
-          type="number"
-          onChange={(event) => {
-            setLeto(event.target.value);
-          }}
-        />
-        <label>Proizvodnja (year):</label>
-        <input
-          type="number"
-          onChange={(event) => {
-            setProizvodnja(event.target.value);
-          }}
-        />
-        <button onClick={addEnergija}>Dodaj</button>
+       <h1>Izpis - Elektricna energija</h1>
       </div>
       <div className="energija">
         <button onClick={getEnergija}>Elektricna energija</button>
@@ -80,4 +63,4 @@ function Stats() {
   );
 }
 
-export default Stats;
+export default Energija;

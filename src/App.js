@@ -6,7 +6,8 @@ import Transport from "./components/transport";
 import Home from "./components/home";
 import Buildings from "./components/buildings";
 import About from "./components/About";
-import Stats from "./components/Stats";
+import Energija from "./components/Energija";
+import EnergijaUvoz from "./components/EnergijaUvoz";
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
 <BrowserRouter>
       <Routes>
           <Route path="" element={<Home />} />
-          <Route path="stats" element={<Stats />} />
+          <Route path="stats" element={<Energija />} />
+          <Route path="stats2" element={<EnergijaUvoz />} />
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />

@@ -43,7 +43,7 @@
                 "path": "/stats"
             },
             {
-                "title": "History",
+                "title": "Elektricna energija za uvoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats2"   
             },
