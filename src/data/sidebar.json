@@ -45,27 +45,27 @@
             {
                 "title": "History",
                 "icon": "bi bi-bar-chart",
-                "path": "/history"   
+                "path": "/stats2"   
             },
             {
                 "title": "History",
                 "icon": "bi bi-bar-chart",
-                "path": "/history"   
+                "path": "/stats3"   
             },
             {
                 "title": "History",
                 "icon": "bi bi-bar-chart",
-                "path": "/history"   
+                "path": "/stats4"   
             },
             {
                 "title": "History",
                 "icon": "bi bi-bar-chart",
-                "path": "/history"   
+                "path": "/stats5"   
             },
             {
                 "title": "History",
                 "icon": "bi bi-bar-chart",
-                "path": "/history"   
+                "path": "/stats6"   
             }
 
         ]
