@@ -43,6 +43,11 @@
                 "path": "/stats"
             },
             {
+                "title": "Elektricna energija v SLO (mesec)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats10"   
+            },
+            {
                 "title": "Elektricna energija za uvoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats2"   
@@ -68,18 +73,14 @@
                 "path": "/stats5"   
             },
             {
-                "title": "Lastna raba",
+                "title": "Gorivo Medkrajevni",
                 "icon": "bi bi-bar-chart",
-                "path": "/stats6"   
+                "path": "/stats8"   
             },
             {
-                "title": "Lastna raba",
+                "title": "Gorivo Mednarodni",
                 "icon": "bi bi-bar-chart",
-                "path": "/stats6"   
-            },{
-                "title": "Lastna raba",
-                "icon": "bi bi-bar-chart",
-                "path": "/stats6"   
+                "path": "/stats9"   
             }
 
         ]

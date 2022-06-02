@@ -123,7 +123,27 @@ app.get("/stats2", (req, res) => {
   });
 
   app.get("/stats8", (req, res) => {
-    db.query("SELECT * FROM lastna_raba_na_elektricna_energija", (err, result) => {
+    db.query("SELECT * FROM gorivo_medkrajevni_javni_linijski_prevoz", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats9", (req, res) => {
+    db.query("SELECT * FROM gorivo_mednarodni_javni_linijski_prevoz", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats10", (req, res) => {
+    db.query("SELECT * FROM elektricna_energija_vo_slovenija_mesecno", (err, result) => {
       if (err) {
         console.log(err);
       } else {

@@ -6,34 +6,31 @@ function ElektricnaEnergijaMesecno() {
 
     const [ElektricnaEnergijaMesecnoList, setElektricnaEnergijaMesecnoList] = useState([]);
 
-  const getElektricnaEnergijaMesecno = () => {
-    Axios.get("http://localhost:3001/stats3).then((response) => {
-        setElektricnaEnergijaMesecnoList(response.data);
-    });
-  };
+    const getElektricnaEnergijaMesecno = () => {
+      Axios.get("http://localhost:3001/stats10").then((response) => {
+          setElektricnaEnergijaMesecnoList(response.data);
+      });
+    };
 
 
   return (
     <div className="App">
       <div className="information">
 
-       <h1>Izpis - Elektricna energija</h1>
+       <h1>Izpis -  Elektricna Energija Mesecno</h1>
       </div>
       <div className="energija">
-        <button onClick={getElektricnaEnergijaMesecno}>Elektricna energija</button>
+        <button onClick={getElektricnaEnergijaMesecno}> Elektricn aEnergija Mesecno</button>
 
         {ElektricnaEnergijaMesecnoList.map((val, key) => {
           return (
             <div className="energiaj1">
               <div>
 
-                <h3>leto: {val.leto}</h3>
+                <h3>Mesec: {val.Mesec}</h3>
 
-                <h3>lokalno_ogrevanje: {val.lokalno_ogrevanje}</h3>
+                <h3>Proizvodnja: {val.Proizvodnja}</h3>
 
-                <h3>centralno ogrevanje: {val.centralno_ogrevanje}</h3>
-
-                <h3>daljinsko ogrevanje: {val.daljinsko_ogrevanje}</h3>
               </div>
               <div>
 

@@ -28,8 +28,7 @@ function GorivoCestni() {
           return (
             <div className="energiaj1">
               <div>
-              
-                <h3>Prevozeni kilometri: {val.prevozeni_kilometri}</h3>
+             
               
                 <h3>leto: {val.leto}</h3>
 

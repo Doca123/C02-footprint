@@ -6,11 +6,11 @@ function GorivoMednarodni() {
 
     const [GorivoMednarodniList, setGorivoMednarodniList] = useState([]);
 
-  const getGorivoJavni = () => {
-    Axios.get("http://localhost:3001/stats3).then((response) => {
-        setGorivoMednarodni(response.data);
-    });
-  };
+    const getGorivoMednarodni = () => {
+      Axios.get("http://localhost:3001/stats9").then((response) => {
+          setGorivoMednarodniList(response.data);
+      });
+    };
 
 
   return (
@@ -29,11 +29,8 @@ function GorivoMednarodni() {
 
                 <h3>leto: {val.leto}</h3>
 
-                <h3>lokalno_ogrevanje: {val.lokalno_ogrevanje}</h3>
 
-                <h3>centralno ogrevanje: {val.centralno_ogrevanje}</h3>
-
-                <h3>daljinsko ogrevanje: {val.daljinsko_ogrevanje}</h3>
+                <h3>Gorivo: {val.gorivo}</h3>
               </div>
               <div>
 
