@@ -38,15 +38,36 @@
         "icon": "bi bi-bar-chart-line-fill",
         "childrens": [
             {
-                "title": "Statistics",
-                "icon": "bi bi-search",
+                "title": "Elektricna energija v SLO (letno)",
+                "icon": "bi bi-bar-chart",
                 "path": "/stats"
             },
             {
                 "title": "History",
-                "icon": "bi bi-clock-history",
+                "icon": "bi bi-bar-chart",
+                "path": "/history"   
+            },
+            {
+                "title": "History",
+                "icon": "bi bi-bar-chart",
+                "path": "/history"   
+            },
+            {
+                "title": "History",
+                "icon": "bi bi-bar-chart",
+                "path": "/history"   
+            },
+            {
+                "title": "History",
+                "icon": "bi bi-bar-chart",
+                "path": "/history"   
+            },
+            {
+                "title": "History",
+                "icon": "bi bi-bar-chart",
                 "path": "/history"   
             }
+
         ]
     },
     {
