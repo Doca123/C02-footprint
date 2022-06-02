@@ -38,15 +38,51 @@
         "icon": "bi bi-bar-chart-line-fill",
         "childrens": [
             {
-                "title": "Search",
-                "icon": "bi bi-search",
-                "path": "/search"
+                "title": "Elektricna energija v SLO (letno)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats"
             },
             {
-                "title": "History",
-                "icon": "bi bi-clock-history",
-                "path": "/history"   
+                "title": "Elektricna energija v SLO (mesec)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats10"   
+            },
+            {
+                "title": "Elektricna energija za uvoz",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats2"   
+            },
+            {
+                "title": "Elektricna Energija Izvoz",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats7"   
+            },
+            {
+                "title": "Ogrevanje Prostorov",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats3"   
+            },
+            {
+                "title": "Ogrevanje Vode",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats4"   
+            },
+            {
+                "title": "Gorivo Cestni",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats5"   
+            },
+            {
+                "title": "Gorivo Medkrajevni",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats8"   
+            },
+            {
+                "title": "Gorivo Mednarodni",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats9"   
             }
+
         ]
     },
     {
@@ -59,19 +95,14 @@
                 "path": "/person"
             },
             {
-                "title": "House",
+                "title": "Buildings",
                 "icon": "bi bi-boxes",
-                "path": "/house"
+                "path": "/buildings"
             },
             {
                 "title": "Transports",
                 "icon": "bi bi-boxes",
                 "path": "/transport"
-            },
-            {
-                "title": "Car",
-                "icon": "bi bi-boxes",
-                "path":"/car"
             }
             
         ]
