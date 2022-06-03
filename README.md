@@ -5,9 +5,11 @@
 
 ## Ekipa: Marko Mladenovič, Viktor Nankovski, Jan Mlakar
 
+
   Naredili smo spletna stran za iskanje skozi podatke povezane s CO2 odtisom vo Slovenije, prevzamene od spletna zbirka "OPSI".
 
     https://podatki.gov.si
+    
 
 ## Strukturo proekta
 
@@ -16,6 +18,7 @@
   Za backend smo uporabili Express.js.
  
   Podatke smo shranili vo MySQL databazo.
+  
 
 ## Namestitev
 
@@ -28,6 +31,7 @@
     $ npm install express
   
     $ npm install mysql
+    
  
 ## Zagon
  
