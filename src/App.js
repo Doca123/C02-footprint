@@ -16,6 +16,7 @@ import ElektricnaEnergijaIzvoz from "./components/ElektricnaEnergijaIzvoz";
 import GorivoMedkrajevni from "./components/GorivoMedkrajevni";
 import GorivoMednarodni from "./components/GorivoMednarodni";
 import ElektricnaEnergijaMesecno from "./components/ElektricnaEnergijaMesecno";
+import Charts from "./components/Charts";
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />
           <Route path="about" element={<About />} />
+          <Route path="support" element={<Charts />} />
           </Routes>
     </BrowserRouter>
         
