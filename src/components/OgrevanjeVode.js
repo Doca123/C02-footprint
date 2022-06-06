@@ -1,52 +1,35 @@
 import { useState } from "react";
 import Axios from "axios";
-
+import BarChart from "./BarChart";
+import { EnergijaOgrajevanjeVode } from "../Data";
 
 function OgrevanjeVode() {
-  
 
-  const [OgrevanjeVodeList, setOgrevanjeVodeList] = useState([]);
-
-  
-  const getOgrevanjeVode = () => {
-    Axios.get("http://localhost:3001/stats4").then((response) => {
-        setOgrevanjeVodeList(response.data);
-    });
-  };
+  const [OgrevanjeVodeList, setOgrevanjeVodeList] = useState({
+    labels: EnergijaOgrajevanjeVode.map((data) => data.leto),
+    datasets: [
+    {
+      label: "Lokalno Ogrevanje",
+      data: EnergijaOgrajevanjeVode.map((data) => data.lokalno_ogrevanje)
+    },
+    {
+      label: "Centralno Ogrevanje",
+      data: EnergijaOgrajevanjeVode.map((data) => data.centralno_ogrevanje)
+    },
+    {
+      label: "Daljinsko Ogrevanje",
+      data: EnergijaOgrajevanjeVode.map((data) => data.daljinsko_ogrevanje)
+    },
+    ],
+  });
 
 
   return (
     <div className="App">
-      <div className="information">
-        
-       <h1>Izpis - Ogrevanje vode</h1>
-      </div>
-      <div className="energija">
-        <button onClick={getOgrevanjeVode}>Ogrevanje vode</button>
-
-        {OgrevanjeVodeList.map((val, key) => {
-          return (
-            <div className="energiaj1">
               <div>
-              
-                <h3>leto: {val.leto}</h3>
-              
-                <h3>lokalno_ogrevanje: {val.lokalno_ogrevanje}</h3>
-
-                <h3>centralno ogrevanje: {val.centralno_ogrevanje}</h3>
-
-                <h3>daljinsko ogrevanje: {val.daljinsko_ogrevanje}</h3>
+                <BarChart chartData={OgrevanjeVodeList} />
               </div>
-              <div>
-                
-
-               
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
+    </div>         
   );
 }
 

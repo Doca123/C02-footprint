@@ -5,7 +5,8 @@ import { DelezEnergijeZaOgrajevanjeProstorov } from "../Data";
 
 function OgrevanjeProstorov() {
   
-  const [OgrevanjeProstorov, setOgrevanjeProstorov] = useState({
+
+  const [OgrevanjeProstorovList, setOgrevanjeProstorovList] = useState({
     labels: DelezEnergijeZaOgrajevanjeProstorov.map((data) => data.leto),
     datasets: [
     {
@@ -26,7 +27,7 @@ function OgrevanjeProstorov() {
   return (
     <div className="App">
               <div>
-                <BarChart chartData={OgrevanjeProstorov} />
+                <BarChart chartData={OgrevanjeProstorovList} />
               </div>
             </div>
           );

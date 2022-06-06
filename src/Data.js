@@ -147,3 +147,30 @@ export const DelezEnergijeZaOgrajevanjeProstorov = [
     daljinsko_ogrevanje: 9.4
 },
 ];
+
+export const EnergijaOgrajevanjeVode = [
+    {
+        leto: 2000,
+        lokalno_ogrevanje: 7.7,
+        centralno_ogrevanje: 85.1,
+        daljinsko_ogrevanje: 7.2
+    },
+    {
+        leto: 2001,
+        lokalno_ogrevanje: 7.6,
+        centralno_ogrevanje: 84.9,
+        daljinsko_ogrevanje: 7.5
+    },
+    {
+        leto: 2002,
+        lokalno_ogrevanje: 7.8,
+        centralno_ogrevanje: 85.4,
+        daljinsko_ogrevanje: 6.8
+    },
+    {
+        leto: 2003,
+        lokalno_ogrevanje: 7.8,
+        centralno_ogrevanje: 85.8,
+        daljinsko_ogrevanje: 6.4
+    },
+]
