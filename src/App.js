@@ -16,10 +16,10 @@ import ElektricnaEnergijaIzvoz from "./components/ElektricnaEnergijaIzvoz";
 import GorivoMedkrajevni from "./components/GorivoMedkrajevni";
 import GorivoMednarodni from "./components/GorivoMednarodni";
 import ElektricnaEnergijaMesecno from "./components/ElektricnaEnergijaMesecno";
+import BarChart from "./components/BarChart";
+import { DelezEnergijeZaOgrajevanjeProstorov } from "./Data";
 
 function App() {
-
-
 
   return (
     <div className="main">
