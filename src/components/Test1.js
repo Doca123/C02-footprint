@@ -3,7 +3,7 @@ import Axios from "axios";
 import BarChart from "./BarChart";
 
 
-function OgrevanjeProstorov() {
+function Test1() {
 
 
 
@@ -70,4 +70,4 @@ function OgrevanjeProstorov() {
   );
 }
 
-export default OgrevanjeProstorov;
+export default Test1;

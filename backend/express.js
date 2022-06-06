@@ -152,9 +152,6 @@ app.get("/stats2", (req, res) => {
     });
   });
 
-
-
-
 app.listen(3001, () => {
   console.log("Your server is running on port 3001");
 });
