@@ -622,45 +622,45 @@ export const energijaUvoz = [
 ];
 
 export const gorivoCestniPrevoz = [
-    {"prevozeni_kilometri":"1.000","leto":"2010","gorivo":"50971"},
-    {"prevozeni_kilometri":"1.000","leto":"2011","gorivo":"49359"},
-    {"prevozeni_kilometri":"1.000","leto":"2012","gorivo":"47107"},
-    {"prevozeni_kilometri":"1.000","leto":"2013","gorivo":"47196"},
-    {"prevozeni_kilometri":"1.000","leto":"2014","gorivo":"47667"},
-    {"prevozeni_kilometri":"1.000","leto":"2015","gorivo":"47876"},
-    {"prevozeni_kilometri":"1.000","leto":"2016","gorivo":"47894"},
-    {"prevozeni_kilometri":"1.000","leto":"2017","gorivo":"48237"},
-    {"prevozeni_kilometri":"1.000","leto":"2018","gorivo":"48836"},
-    {"prevozeni_kilometri":"1.000","leto":"2019","gorivo":"51449"},
-    {"prevozeni_kilometri":"1.000","leto":"2020","gorivo":"37206"}
+    {"leto":"2010","gorivo":"50971"},
+    {"leto":"2011","gorivo":"49359"},
+    {"leto":"2012","gorivo":"47107"},
+    {"leto":"2013","gorivo":"47196"},
+    {"leto":"2014","gorivo":"47667"},
+    {"leto":"2015","gorivo":"47876"},
+    {"leto":"2016","gorivo":"47894"},
+    {"leto":"2017","gorivo":"48237"},
+    {"leto":"2018","gorivo":"48836"},
+    {"leto":"2019","gorivo":"51449"},
+    {"leto":"2020","gorivo":"37206"}
 ];
 
 export const gorivoMedkrajevniPrevoz = [
-    {"prevozeni_kilometri":"1.000","leto":"2010","gorivo":"49979"},
-    {"prevozeni_kilometri":"1.000","leto":"2011","gorivo":"48230"},
-    {"prevozeni_kilometri":"1.000","leto":"2012","gorivo":"46179"},
-    {"prevozeni_kilometri":"1.000","leto":"2013","gorivo":"46007"},
-    {"prevozeni_kilometri":"1.000","leto":"2014","gorivo":"46857"},
-    {"prevozeni_kilometri":"1.000","leto":"2015","gorivo":"47107"},
-    {"prevozeni_kilometri":"1.000","leto":"2016","gorivo":"47141"},
-    {"prevozeni_kilometri":"1.000","leto":"2017","gorivo":"47418"},
-    {"prevozeni_kilometri":"1.000","leto":"2018","gorivo":"47515"},
-    {"prevozeni_kilometri":"1.000","leto":"2019","gorivo":"48665"},
-    {"prevozeni_kilometri":"1.000","leto":"2020","gorivo":"36545"}
+    {"leto":"2010","gorivo":"49979"},
+    {"leto":"2011","gorivo":"48230"},
+    {"leto":"2012","gorivo":"46179"},
+    {"leto":"2013","gorivo":"46007"},
+    {"leto":"2014","gorivo":"46857"},
+    {"leto":"2015","gorivo":"47107"},
+    {"leto":"2016","gorivo":"47141"},
+    {"leto":"2017","gorivo":"47418"},
+    {"leto":"2018","gorivo":"47515"},
+    {"leto":"2019","gorivo":"48665"},
+    {"leto":"2020","gorivo":"36545"}
 ];
 
 export const gorivoMednarodniPrevoz = [
-    {"prevozeni_kilometri":"1.000","leto":"2010","gorivo":"991"},
-    {"prevozeni_kilometri":"1.000","leto":"2011","gorivo":"1128"},
-    {"prevozeni_kilometri":"1.000","leto":"2012","gorivo":"928"},
-    {"prevozeni_kilometri":"1.000","leto":"2013","gorivo":"1189"},
-    {"prevozeni_kilometri":"1.000","leto":"2014","gorivo":"810"},
-    {"prevozeni_kilometri":"1.000","leto":"2015","gorivo":"769"},
-    {"prevozeni_kilometri":"1.000","leto":"2016","gorivo":"752"},
-    {"prevozeni_kilometri":"1.000","leto":"2017","gorivo":"819"},
-    {"prevozeni_kilometri":"1.000","leto":"2018","gorivo":"1321"},
-    {"prevozeni_kilometri":"1.000","leto":"2019","gorivo":"2784"},
-    {"prevozeni_kilometri":"1.000","leto":"2020","gorivo":"661"}   
+    {"leto":"2010","gorivo":"991"},
+    {"leto":"2011","gorivo":"1128"},
+    {"leto":"2012","gorivo":"928"},
+    {"leto":"2013","gorivo":"1189"},
+    {"leto":"2014","gorivo":"810"},
+    {"leto":"2015","gorivo":"769"},
+    {"leto":"2016","gorivo":"752"},
+    {"leto":"2017","gorivo":"819"},
+    {"leto":"2018","gorivo":"1321"},
+    {"leto":"2019","gorivo":"2784"},
+    {"leto":"2020","gorivo":"661"}   
 ];
 
 export const lastnaRabaEnergija = [

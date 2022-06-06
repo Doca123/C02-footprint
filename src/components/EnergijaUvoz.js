@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Axios from "axios";
 
-//proizvodnja=uvoz setProizvodnja=setUvoz energijaList=energijaUvozList  setEnergijaList=setEnergijaUvozList  getEnergija=getEnergijaUvoz
-
 function EnergijaUvoz() {
   
   const [leto, setLeto] = useState(0);

@@ -1,48 +1,31 @@
 import { useState } from "react";
 import Axios from "axios";
-
+import PieChart from "./PieChart";
+import { gorivoCestniPrevoz } from "../Data";
 
 function GorivoCestni() {
-  
 
-  const [GorivoCestniList, setGorivoCestniList] = useState([]);
-
-  
-  const getGorivoCestni = () => {
-    Axios.get("http://localhost:3001/stats5").then((response) => {
-        setGorivoCestniList(response.data);
-    });
-  };
-
+  const [GorivoCestniList, setGorivoCestniList] = useState({
+    labels: gorivoCestniPrevoz.map((data) => data.leto),
+    datasets: [
+    {
+      label: "Gorivo na 1000km",
+      data: gorivoCestniPrevoz.map((data) => data.gorivo),
+      backgroundColor: [
+        "rgba(75,192,192,1)"
+        
+      ],
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    ],
+  });
 
   return (
     <div className="App">
-      <div className="information">
-        
-       <h1>Izpis - Gorivo cestni</h1>
-      </div>
-      <div className="energija">
-        <button onClick={getGorivoCestni}>Gorivo cestni</button>
-
-        {GorivoCestniList.map((val, key) => {
-          return (
-            <div className="energiaj1">
-              <div>
-             
-              
-                <h3>leto: {val.leto}</h3>
-
-                <h3>Gorivo: {val.gorivo}</h3>
-
-              </div>
-              <div>
-                
-
-               
-              </div>
-            </div>
-          );
-        })}
+              <div style={{ width: 650 }}>
+              <PieChart chartData={GorivoCestniList} />
+ 
       </div>
     </div>
   );
