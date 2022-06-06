@@ -300,8 +300,8 @@ export const EnergijaOgrajevanjeVode = [
 
 export const energijaLetno = [
     {
-        leto: 1996,
-        proizvodnja: 12737
+        "leto": "1996",
+        "proizvodnja": "12737"
     },
     {
         "leto":"1997","proizvodnja":"13178.000"

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Axios from "axios";
-import BarChart from "./BarChart";
+import LineChart from "./LineChart";
 import { energijaLetno } from "../Data";
 
 function Energija() {
@@ -10,7 +10,13 @@ function Energija() {
     datasets: [
     {
       label: "Proizvodnja",
-      data: energijaLetno.map((data) => data.proizvodnja)
+      data: energijaLetno.map((data) => data.proizvodnja),
+      backgroundColor: [
+        "rgba(75,192,192,1)"
+        
+      ],
+      borderColor: "black",
+      borderWidth: 2,
     },
     ],
   });
@@ -18,7 +24,7 @@ function Energija() {
   return (
     <div className="App">
               <div>
-              <BarChart chartData={energijaList} />
+              <LineChart chartData={energijaList} />
       </div>
     </div>
   );
