@@ -12,8 +12,10 @@ function GorivoMednarodni() {
         label: "Gorivo na 1000km",
         data: gorivoMednarodniPrevoz.map((data) => data.gorivo),
         backgroundColor: [
-          "rgba(75,192,192,1)"
-          
+          "rgba(75,192,192,1)",
+          "#ecf0f1",
+          "#f3ba2f",
+          "#2a71d0",
         ],
         borderColor: "black",
         borderWidth: 2,

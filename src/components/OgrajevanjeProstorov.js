@@ -12,7 +12,7 @@ function OgrevanjeProstorov() {
       label: "Lokalno Ogrevanje",
       data: DelezEnergijeZaOgrajevanjeProstorov.map((data) => data.lokalno_ogrevanje),
       backgroundColor: [
-        "rgba(75,192,192,1)"
+        "rgb(153, 255, 102)"
         
       ],
       borderColor: "black",
@@ -22,8 +22,7 @@ function OgrevanjeProstorov() {
       label: "Centralno Ogrevanje",
       data: DelezEnergijeZaOgrajevanjeProstorov.map((data) => data.centralno_ogrevanje),
       backgroundColor: [
-        "rgb(153, 255, 102)"
-        
+        "rgba(75,192,192,1)"  
       ],
       borderColor: "black",
       borderWidth: 2,

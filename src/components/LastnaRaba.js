@@ -1,46 +1,34 @@
 import { useState } from "react";
 import Axios from "axios";
+import LineChart from "./LineChart";
+import { lastnaRabaEnergija } from "../Data";
 
 
 function LastnaRaba() {
   
 
-  const [LastnaRabaList, setLastnaRabaList] = useState([]);
-
-  
-  const getLastnaRaba = () => {
-    Axios.get("http://localhost:3001/stats6").then((response) => {
-        setLastnaRabaList(response.data);
-    });
-  };
+  const [LastnaRabaList, setLastnaRabaList] = useState({
+    labels: lastnaRabaEnergija.map((data) => data.leto),
+    datasets: [
+    {
+      label: "Lastna Raba",
+      data: lastnaRabaEnergija.map((data) => data.lastna_raba),
+      backgroundColor: [
+        "rgb(153, 255, 102)"
+        
+      ],
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    ],
+  });
 
 
   return (
     <div className="App">
-      <div className="information">
-        
-       <h1>Izpis - Lastna raba elektricne energije</h1>
-      </div>
-      <div className="energija">
-        <button onClick={getLastnaRaba}>Lastna raba</button>
-
-        {LastnaRabaList.map((val, key) => {
-          return (
-            <div className="energiaj1">
               <div>
-              
-                <h3>leto: {val.leto}</h3>
-              
-                <h3>Lastna raba: {val.lastna_raba}</h3>
-              </div>
-              <div>
-                
+              <LineChart chartData={LastnaRabaList} />
 
-               
-              </div>
-            </div>
-          );
-        })}
       </div>
     </div>
   );

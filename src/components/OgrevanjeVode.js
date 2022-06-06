@@ -22,8 +22,7 @@ function OgrevanjeVode() {
       label: "Centralno Ogrevanje",
       data: EnergijaOgrajevanjeVode.map((data) => data.centralno_ogrevanje),
       backgroundColor: [
-        "rgba(75,192,192,1)"
-        
+        "rgba(75,192,192,1)"  
       ],
       borderColor: "black",
       borderWidth: 2,
