@@ -1,46 +1,34 @@
 import { useState } from "react";
 import Axios from "axios";
+import LineChart from "./LineChart";
+import { energijaMesec } from "../Data";
 
 
 function ElektricnaEnergijaMesecno() {
 
-    const [ElektricnaEnergijaMesecnoList, setElektricnaEnergijaMesecnoList] = useState([]);
-
-    const getElektricnaEnergijaMesecno = () => {
-      Axios.get("http://localhost:3001/stats10").then((response) => {
-          setElektricnaEnergijaMesecnoList(response.data);
-      });
-    };
+    const [ElektricnaEnergijaMesecnoList, setElektricnaEnergijaMesecnoList] = useState({
+      labels: energijaMesec.map((data) => data.Mesec),
+      datasets: [
+      {
+        label: "Proizvodnja",
+        data: energijaMesec.map((data) => data.Proizvodnja),
+        backgroundColor: [
+          "rgb(153, 255, 102)"
+          
+        ],
+        borderColor: "black",
+        borderWidth: 2,
+      },
+      ],
+    });
 
 
   return (
     <div className="App">
-      <div className="information">
-
-       <h1>Izpis -  Elektricna Energija Mesecno</h1>
-      </div>
-      <div className="energija">
-        <button onClick={getElektricnaEnergijaMesecno}> Elektricn aEnergija Mesecno</button>
-
-        {ElektricnaEnergijaMesecnoList.map((val, key) => {
-          return (
-            <div className="energiaj1">
               <div>
-
-                <h3>Mesec: {val.Mesec}</h3>
-
-                <h3>Proizvodnja: {val.Proizvodnja}</h3>
+              <LineChart chartData={ElektricnaEnergijaMesecnoList} />
 
               </div>
-              <div>
-
-
-
-              </div>
-            </div>
-          );
-        })}
-      </div>
     </div>
   );
 }

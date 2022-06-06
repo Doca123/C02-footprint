@@ -48,37 +48,37 @@
                 "path": "/stats10"   
             },
             {
-                "title": "Elektricna energija za uvoz",
+                "title": "Elektricna energija za Uvoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats2"   
             },
             {
-                "title": "Elektricna Energija Izvoz",
+                "title": "Elektricna energija za Izvoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats7"   
             },
             {
-                "title": "Ogrevanje Prostorov",
+                "title": "Elektricna energija za Ogrevanje Prostorov",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats3"   
             },
             {
-                "title": "Ogrevanje Vode",
+                "title": "Elektricna energija za Ogrevanje Vode",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats4"   
             },
             {
-                "title": "Gorivo Cestni",
+                "title": "Gorivo za Cestni Javni Prevoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats5"   
             },
             {
-                "title": "Gorivo Medkrajevni",
+                "title": "Gorivo za Medkrajevni Javni Prevoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats8"   
             },
             {
-                "title": "Gorivo Mednarodni",
+                "title": "Gorivo za Mednarodni Javni Prevoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats9"   
             }
@@ -100,7 +100,7 @@
                 "path": "/buildings"
             },
             {
-                "title": "Transports",
+                "title": "Transport",
                 "icon": "bi bi-boxes",
                 "path": "/transport"
             }
