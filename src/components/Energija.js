@@ -1,46 +1,24 @@
 import { useState } from "react";
 import Axios from "axios";
-
+import BarChart from "./BarChart";
+import { energijaLetno } from "../Data";
 
 function Energija() {
   
-
-  const [energijaList, setEnergijaList] = useState([]);
-
-  
-  const getEnergija = () => {
-    Axios.get("http://localhost:3001/stats").then((response) => {
-        setEnergijaList(response.data);
-    });
-  };
-
+  const [energijaList, setEnergijaList] = useState({
+    labels: energijaLetno.map((data) => data.leto),
+    datasets: [
+    {
+      label: "Proizvodnja",
+      data: energijaLetno.map((data) => data.proizvodnja)
+    },
+    ],
+  });
 
   return (
     <div className="App">
-      <div className="information">
-        
-       <h1>Izpis - Elektricna energija</h1>
-      </div>
-      <div className="energija">
-        <button onClick={getEnergija}>Elektricna energija</button>
-
-        {energijaList.map((val, key) => {
-          return (
-            <div className="energiaj1">
               <div>
-              
-                <h3>leto: {val.leto}</h3>
-              
-                <h3>proizvodnja: {val.proizvodnja}</h3>
-              </div>
-              <div>
-                
-
-               
-              </div>
-            </div>
-          );
-        })}
+              <BarChart chartData={energijaList} />
       </div>
     </div>
   );
