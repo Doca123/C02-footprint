@@ -1,48 +1,31 @@
 import { useState } from "react";
 import Axios from "axios";
+import BarChart from "./BarChart";
+import { energijaUvoz } from "../Data";
 
 function EnergijaUvoz() {
-  
-  const [leto, setLeto] = useState(0);
-  const [uvoz, setUvoz] = useState("");
 
-  const [energijaUvozList, setEnergijaUvozList] = useState([]);
-
-  
-  const getEnergijaUvoz = () => {
-    Axios.get("http://localhost:3001/stats2").then((response) => {
-        setEnergijaUvozList(response.data);
-    });
-  };
-
+  const [energijaUvozList, setEnergijaUvozList] = useState({
+    labels: energijaUvoz.map((data) => data.leto),
+    datasets: [
+    {
+      label: "Uvoz",
+      data: energijaUvoz.map((data) => data.uvoz),
+      backgroundColor: [
+        "rgba(75,192,192,1)"
+        
+      ],
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    ],
+  });
 
   return (
     <div className="App">
-      <div className="information">
-        
-       <h1>Izpis - Elektricna energija uvoz </h1>
-
-      </div>
-      <div className="energija">
-        <button onClick={getEnergijaUvoz}>Elektricna energija uvoz</button>
-
-        {energijaUvozList.map((val, key) => {
-          return (
-            <div className="energiaj1">
               <div>
-              
-                <h3>leto: {val.leto}</h3>
-              
-                <h3>Uvoz: {val.uvoz}</h3>
-              </div>
-              <div>
-                
+              <BarChart chartData={energijaUvozList} />
 
-               
-              </div>
-            </div>
-          );
-        })}
       </div>
     </div>
   );
