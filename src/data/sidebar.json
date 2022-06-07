@@ -43,7 +43,7 @@
                 "path": "/stats"
             },
             {
-                "title": "Elektricna energija v SLO (mesec)",
+                "title": "Elektricna energija v SLO (mesecna)",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats10"   
             },
@@ -91,8 +91,52 @@
                 "title": "Lastna raba energije na Hidroelektrarne",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats11"   
+            },
+            {
+                "title": "Lastna raba energije na Jedrske elektrarne",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats12"   
+            },
+            {
+                "title": "Lastna raba energije na Termoelektrarne",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats13"   
+            },
+            {
+                "title": "Proizvodnja energije na Hidroelektrarne (letna)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats14"   
+            },
+            {
+                "title": "Proizvodnja energije na Jedrske elektrarne (letna)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats15"   
+            },
+            {
+                "title": "Proizvodnja energije na Termoelektrarne (letna)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats16"   
+            },
+            {
+                "title": "Proizvodnja energije na Hidroelektrarne (mesecna)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats17"   
+            },
+            {
+                "title": "Proizvodnja energije na Jedrske elektrarne (mesecna)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats18"   
+            },
+            {
+                "title": "Proizvodnja energije na Termoelektrarne (mesecna)",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats19"   
+            },
+            {
+                "title": "Proizvodnja na pragu",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats20"   
             }
-
         ]
     },
     {
