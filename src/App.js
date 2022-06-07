@@ -22,7 +22,10 @@ import LastnaRabaTermoelektrarne from "./components/LastnaRabaTermoelektrarne";
 import ProizvodnjaHidroElektrarneLetna from "./components/ProizvodnjaHidroElektrarneLetna";
 import ProizvodnjaJedrskeLetna from "./components/ProizvodnjaJedrskeLetna";
 import ProizvodnjaTermoelektrarneLetna from "./components/ProizvodnjaTermoelektrarneLetna";
-
+import ProizvodnjaHidroelektrarneMesecna from "./components/ProizvodnjaHidroelektrarneMesecna";
+import ProizvodnjaJedrskeMesecna from "./components/ProizvodnjaJedrskeMesecna";
+import ProizvodnjaTermoelektrarneMesecna from "./components/ProizvodnjaTermoelektrarneMesecna";
+import ProizvodnjaNaPragu from "./components/ProizvodnjaNaPragu";
 
 
 function App() {
@@ -51,6 +54,10 @@ function App() {
           <Route path="stats14" element={<ProizvodnjaHidroElektrarneLetna />} />
           <Route path="stats15" element={<ProizvodnjaJedrskeLetna />} />
           <Route path="stats16" element={<ProizvodnjaTermoelektrarneLetna />} />
+          <Route path="stats17" element={<ProizvodnjaHidroelektrarneMesecna />} />
+          <Route path="stats18" element={<ProizvodnjaJedrskeMesecna />} />
+          <Route path="stats19" element={<ProizvodnjaTermoelektrarneMesecna />} />
+          <Route path="stats20" element={<ProizvodnjaNaPragu />} />
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />

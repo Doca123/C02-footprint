@@ -3,15 +3,15 @@ import Axios from "axios";
 import LineChart from "./LineChart";
 
 
-function ProizvodnjaJedrskeMesecna() {
+function ProizvodnjaNaPragu() {
 
 
 
-    const [proizvodnjaJedrskeMesecnaList, setProizvodnjaJedrskeMesecnaList] = useState([]);
+    const [proizvodnjaNaPraguList, setProizvodnjaNaPraguList] = useState([]);
 
   const fetchData = () => {
-    Axios.get("http://localhost:3001/stats18").then((response) => {
-        setProizvodnjaJedrskeMesecnaList(response.data);
+    Axios.get("http://localhost:3001/stats20").then((response) => {
+        setProizvodnjaNaPraguList(response.data);
     });
   };
 
@@ -22,12 +22,12 @@ function ProizvodnjaJedrskeMesecna() {
 
 
 
-  const data18={
-    labels: proizvodnjaJedrskeMesecnaList.map((data) => data.leto),
+  const data20={
+    labels: proizvodnjaNaPraguList.map((data) => data.leto),
     datasets: [
     {
       label: "Proizvodnja",
-      data: proizvodnjaJedrskeMesecnaList.map((data) => data.proizvodnja),
+      data: proizvodnjaNaPraguList.map((data) => data.proizvodnja),
       backgroundColor: [
         "rgb(153, 255, 102)"
         
@@ -41,10 +41,10 @@ function ProizvodnjaJedrskeMesecna() {
   return (
     <div className="App">
               <div>
-                <LineChart chartData={data18} />
+                <LineChart chartData={data20} />
               </div>
             </div>
   );
 }
 
-export default ProizvodnjaJedrskeMesecna;
+export default ProizvodnjaNaPragu;

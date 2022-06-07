@@ -10,7 +10,7 @@ function ProizvodnjaHidroelektrarneMesecna() {
     const [proizvodnjaHidroelektrarneMesecnaList, setProizvodnjaHidroelektrarneMesecnaList] = useState([]);
 
   const fetchData = () => {
-    Axios.get("http://localhost:3001/stats11").then((response) => {
+    Axios.get("http://localhost:3001/stats17").then((response) => {
         setProizvodnjaHidroelektrarneMesecnaList(response.data);
     });
   };
