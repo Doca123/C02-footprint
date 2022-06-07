@@ -19,7 +19,6 @@ import ElektricnaEnergijaMesecno from "./components/ElektricnaEnergijaMesecno";
 import LastnaRabaHidroelektrarne from "./components/LastnaRabaHidroelektrarne";
 import LastnaRabaJedrske from "./components/LastnaRabaJedrske";
 import LastnaRabaTermoelektrarne from "./components/LastnaRabaTermoelektrarne";
-import ProizvodnjaHidroElektrarneLetna from "./components/ProizvodnjaHidroElektrarneLetna";
 import ProizvodnjaJedrskeLetna from "./components/ProizvodnjaJedrskeLetna";
 import ProizvodnjaTermoelektrarneLetna from "./components/ProizvodnjaTermoelektrarneLetna";
 import ProizvodnjaHidroelektrarneMesecna from "./components/ProizvodnjaHidroelektrarneMesecna";
@@ -51,7 +50,6 @@ function App() {
           <Route path="stats11" element={<LastnaRabaHidroelektrarne />} />
           <Route path="stats12" element={<LastnaRabaJedrske />} />
           <Route path="stats13" element={<LastnaRabaTermoelektrarne />} />
-          <Route path="stats14" element={<ProizvodnjaHidroElektrarneLetna />} />
           <Route path="stats15" element={<ProizvodnjaJedrskeLetna />} />
           <Route path="stats16" element={<ProizvodnjaTermoelektrarneLetna />} />
           <Route path="stats17" element={<ProizvodnjaHidroelektrarneMesecna />} />
