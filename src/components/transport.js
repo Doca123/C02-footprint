@@ -1,3 +1,6 @@
+import { transportation } from "../Data";
+import PieChart from "./PieChart";
+
 const Transport = () => {
     return (
         <div><h2 className="subtitle">Average transport CO2 footprint</h2>
