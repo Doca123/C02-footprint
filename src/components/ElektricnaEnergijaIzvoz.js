@@ -1,33 +1,48 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Axios from "axios";
 import BarChart from "./BarChart";
 import { energijaIzvoz } from "../Data";
 
 function ElektricnaEnergijaIzvoz() {
 
-    const [ElektricnaEnergijaIzvozList, setElektricnaEnergijaIzvozList] = useState({
-      labels: energijaIzvoz.map((data) => data.leto),
-      datasets: [
-      {
-        label: "Izvoz",
-        data: energijaIzvoz.map((data) => data.izvoz),
-        backgroundColor: [
-          "rgba(75,192,192,1)"
-          
-        ],
-        borderColor: "black",
-        borderWidth: 2,
-      },
-      ],
+  const [ElektricnaEnergijaIzvozList, setElektricnaEnergijaIzvozList] = useState([]);
+
+
+
+
+  const fetchData = () => {
+    Axios.get("http://localhost:3001/stats7").then((response) => {
+      setElektricnaEnergijaIzvozList(response.data);
     });
+  };
+
+  useEffect(() => {
+    fetchData();
+    
+  }, []);
+
+  const data1={
+    labels: ElektricnaEnergijaIzvozList.map((data) => data.leto),
+    datasets: [
+    {
+      label: "Lokalno Ogrevanje",
+      data: ElektricnaEnergijaIzvozList.map((data) => data.izvoz),
+      backgroundColor: [
+        "rgb(153, 255, 102)"
+        
+      ],
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    ],
+  };
 
   return (
     <div className="App">
               <div>
-              <BarChart chartData={ElektricnaEnergijaIzvozList} />
-
-      </div>
-    </div>
+                <BarChart chartData={data1} />
+              </div>
+            </div>
   );
 }
 
