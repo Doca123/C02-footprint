@@ -27,7 +27,7 @@ function ProizvodnjaHidroelektrarneLetna() {
     datasets: [
     {
       label: "Proizvodnja",
-      data: lastnaRabaJedrskeList.map((data) => data.proizvodnja),
+      data: proizvodnjaHidroelektrarneLetnaList.map((data) => data.proizvodnja),
       backgroundColor: [
         "rgb(153, 255, 102)"
         
