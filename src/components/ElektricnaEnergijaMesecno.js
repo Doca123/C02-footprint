@@ -29,7 +29,7 @@ function ElektricnaEnergijaMesecno() {
     labels: ElektricnaEnergijaMesecnoList.map((data) => data.Mesec),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Elektricna energija mesecno",
       data: ElektricnaEnergijaMesecnoList.map((data) => data.Proizvodnja),
       backgroundColor: [
         "rgb(153, 255, 102)"

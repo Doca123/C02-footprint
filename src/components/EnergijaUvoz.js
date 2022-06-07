@@ -25,7 +25,7 @@ function EnergijaUvoz() {
     labels: EnergijaUvozList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Energija uvoz",
       data: EnergijaUvozList.map((data) => data.uvoz),
       backgroundColor: [
         "rgb(153, 255, 102)"

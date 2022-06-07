@@ -25,7 +25,7 @@ function ElektricnaEnergijaIzvoz() {
     labels: ElektricnaEnergijaIzvozList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Elektricna energija izvoz",
       data: ElektricnaEnergijaIzvozList.map((data) => data.izvoz),
       backgroundColor: [
         "rgb(153, 255, 102)"

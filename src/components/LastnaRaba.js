@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Axios from "axios";
 import LineChart from "./LineChart";
 import { lastnaRabaEnergija } from "../Data";
@@ -7,12 +7,31 @@ import { lastnaRabaEnergija } from "../Data";
 function LastnaRaba() {
   
 
-  const [LastnaRabaList, setLastnaRabaList] = useState({
-    labels: lastnaRabaEnergija.map((data) => data.leto),
+
+  const [LastnaRabaList, setLastnaRabaList] = useState([]);
+
+
+
+
+  const fetchData = () => {
+    Axios.get("http://localhost:3001/stats6").then((response) => {
+      setLastnaRabaList(response.data);
+    });
+  };
+
+  useEffect(() => {
+    fetchData();
+    
+  }, []);
+
+
+
+  const data1={
+    labels: LastnaRabaList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lastna Raba",
-      data: lastnaRabaEnergija.map((data) => data.lastna_raba),
+      label: "Lastna raba",
+      data: LastnaRabaList.map((data) => data.lastna_raba),
       backgroundColor: [
         "rgb(153, 255, 102)"
         
@@ -21,16 +40,14 @@ function LastnaRaba() {
       borderWidth: 2,
     },
     ],
-  });
-
+  };
 
   return (
     <div className="App">
               <div>
-              <LineChart chartData={LastnaRabaList} />
-
-      </div>
-    </div>
+                <LineChart chartData={data1} />
+              </div>
+            </div>
   );
 }
 

@@ -7,7 +7,10 @@ function LastnaRabaHidroelektrarne() {
 
 
 
-    const [lastnaRabaHidroelektrarneList, setLastnaRabaHidroelektrarneList] = useState([]);
+  const [LastnaRabaHidroelektrarneList, setLastnaRabaHidroelektrarneList] = useState([]);
+
+
+
 
   const fetchData = () => {
     Axios.get("http://localhost:3001/stats11").then((response) => {
@@ -22,26 +25,26 @@ function LastnaRabaHidroelektrarne() {
 
 
 
-  const data11={
-    labels: lastnaRabaHidroelektrarneList.map((data) => data.leto),
+  const data1={
+    labels: LastnaRabaHidroelektrarneList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lastna raba",
-      data: lastnaRabaHidroelektrarneList.map((data) => data.lastna_raba),
+      label: "Lastna raba hidroelektrarne",
+      data: LastnaRabaHidroelektrarneList.map((data) => data.lastna_raba),
       backgroundColor: [
         "rgb(153, 255, 102)"
         
       ],
       borderColor: "black",
       borderWidth: 2,
-    }
+    },
     ],
   };
 
   return (
     <div className="App">
               <div>
-                <BarChart chartData={data11} />
+                <BarChart chartData={data1} />
               </div>
             </div>
   );
