@@ -17,6 +17,13 @@ import GorivoMedkrajevni from "./components/GorivoMedkrajevni";
 import GorivoMednarodni from "./components/GorivoMednarodni";
 import ElektricnaEnergijaMesecno from "./components/ElektricnaEnergijaMesecno";
 import LastnaRabaHidroelektrarne from "./components/LastnaRabaHidroelektrarne";
+import LastnaRabaJedrske from "./components/LastnaRabaJedrske";
+import LastnaRabaTermoelektrarne from "./components/LastnaRabaTermoelektrarne";
+import ProizvodnjaHidroElektrarneLetna from "./components/ProizvodnjaHidroElektrarneLetna";
+import ProizvodnjaJedrskeLetna from "./components/ProizvodnjaJedrskeLetna";
+import ProizvodnjaTermoelektrarneLetna from "./components/ProizvodnjaTermoelektrarneLetna";
+
+
 
 function App() {
 
@@ -39,6 +46,11 @@ function App() {
           <Route path="stats9" element={<GorivoMednarodni />} />
           <Route path="stats6" element={<LastnaRaba />} />
           <Route path="stats11" element={<LastnaRabaHidroelektrarne />} />
+          <Route path="stats12" element={<LastnaRabaJedrske />} />
+          <Route path="stats13" element={<lastnaRabaTermoelektrarne />} />
+          <Route path="stats14" element={<ProizvodnjaHidroElektrarneLetna />} />
+          <Route path="stats15" element={<ProizvodnjaJedrskeLetna />} />
+          <Route path="stats16" element={<ProizvodnjaTermoelektrarneLetna />} />
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />

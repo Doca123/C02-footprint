@@ -152,6 +152,106 @@ app.get("/stats2", (req, res) => {
     });
   });
 
+  app.get("/stats11", (req, res) => {
+    db.query("SELECT * FROM lastna_raba_na_elektricna_energija_hidroelektrane", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats12", (req, res) => {
+    db.query("SELECT * FROM lastna_raba_na_elektricna_energija_jedrska_elektrana", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats13", (req, res) => {
+    db.query("SELECT * FROM lastna_raba_na_elektricna_energija_termoelektrane", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats14", (req, res) => {
+    db.query("SELECT * FROM letna_proizvodnja_na_generatorju_hidroelektrane", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats15", (req, res) => {
+    db.query("SELECT * FROM letna_proizvodnja_na_generatorju_jedrska_elektrana", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats16", (req, res) => {
+    db.query("SELECT * FROM letna_proizvodnja_na_generatorju_termoelektrane", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats17", (req, res) => {
+    db.query("SELECT * FROM proizvodnja_na_generatorju_hidroelektrane", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats18", (req, res) => {
+    db.query("SELECT * FROM proizvodnja_na_generatorju_jedrska_eletrana", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats19", (req, res) => {
+    db.query("SELECT * FROM proizvodnja_na_generatorju_termoelektrane", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/stats20", (req, res) => {
+    db.query("SELECT * FROM proizvodnja_na_pragu_skupaj", (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
 app.listen(3001, () => {
   console.log("Your server is running on port 3001");
 });
