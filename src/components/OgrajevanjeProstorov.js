@@ -13,7 +13,7 @@ function OgrevanjeProstorov() {
 
 
   const fetchData = () => {
-    Axios.get("http://localhost:3001/support").then((response) => {
+    Axios.get("http://localhost:3001/stats3").then((response) => {
         setOgrevanjeProstorovList(response.data);
     });
   };
