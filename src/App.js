@@ -50,7 +50,7 @@ function App() {
           <Route path="stats6" element={<LastnaRaba />} />
           <Route path="stats11" element={<LastnaRabaHidroelektrarne />} />
           <Route path="stats12" element={<LastnaRabaJedrske />} />
-          <Route path="stats13" element={<lastnaRabaTermoelektrarne />} />
+          <Route path="stats13" element={<LastnaRabaTermoelektrarne />} />
           <Route path="stats14" element={<ProizvodnjaHidroElektrarneLetna />} />
           <Route path="stats15" element={<ProizvodnjaJedrskeLetna />} />
           <Route path="stats16" element={<ProizvodnjaTermoelektrarneLetna />} />
