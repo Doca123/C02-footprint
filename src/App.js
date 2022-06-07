@@ -16,6 +16,7 @@ import ElektricnaEnergijaIzvoz from "./components/ElektricnaEnergijaIzvoz";
 import GorivoMedkrajevni from "./components/GorivoMedkrajevni";
 import GorivoMednarodni from "./components/GorivoMednarodni";
 import ElektricnaEnergijaMesecno from "./components/ElektricnaEnergijaMesecno";
+import LastnaRabaHidroelektrarne from "./components/LastnaRabaHidroelektrarne";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="stats8" element={<GorivoMedkrajevni />} />
           <Route path="stats9" element={<GorivoMednarodni />} />
           <Route path="stats6" element={<LastnaRaba />} />
+          <Route path="stats11" element={<LastnaRabaHidroelektrarne />} />
           <Route path="person" element={<Person />} />
           <Route path="buildings" element={<Buildings />} />
           <Route path="transport" element={<Transport />} />
