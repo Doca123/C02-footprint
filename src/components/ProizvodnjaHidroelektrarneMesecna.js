@@ -23,7 +23,7 @@ function ProizvodnjaHidroelektrarneMesecna() {
 
 
   const data17={
-    labels: proizvodnjaHidroelektrarneMesecnaList.map((data) => data.leto),
+    labels: proizvodnjaHidroelektrarneMesecnaList.map((data) => data.mesec),
     datasets: [
     {
       label: "Proizvodnja",
