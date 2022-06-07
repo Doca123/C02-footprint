@@ -68,11 +68,6 @@
                 "path": "/stats4"   
             },
             {
-                "title": "Lastna Raba Elektricne energije",
-                "icon": "bi bi-bar-chart",
-                "path": "/stats6"   
-            },
-            {
                 "title": "Gorivo za Cestni Javni Prevoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats5"   
@@ -86,6 +81,16 @@
                 "title": "Gorivo za Mednarodni Javni Prevoz",
                 "icon": "bi bi-bar-chart",
                 "path": "/stats9"   
+            },
+            {
+                "title": "Lastna raba Elektricne energije",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats6"   
+            },
+            {
+                "title": "Lastna raba energije na Hidroelektrarne",
+                "icon": "bi bi-bar-chart",
+                "path": "/stats11"   
             }
 
         ]
