@@ -27,7 +27,7 @@ function GorivoMednarodni() {
     labels: GorivoMednarodniList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Gorivo",
       data: GorivoMednarodniList.map((data) => data.gorivo),
       backgroundColor: [
         "rgb(153, 255, 102)"

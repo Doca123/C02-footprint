@@ -27,7 +27,7 @@ function GorivoCestni() {
     labels: GorivoCestniList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Gorivo",
       data: GorivoCestniList.map((data) => data.gorivo),
       backgroundColor: [
         "rgb(153, 255, 102)"

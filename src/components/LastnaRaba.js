@@ -30,7 +30,7 @@ function LastnaRaba() {
     labels: LastnaRabaList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Lastna raba",
       data: LastnaRabaList.map((data) => data.lastna_raba),
       backgroundColor: [
         "rgb(153, 255, 102)"

@@ -29,7 +29,7 @@ function LastnaRabaHidroelektrarne() {
     labels: LastnaRabaHidroelektrarneList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Lastna raba hidroelektrarne",
       data: LastnaRabaHidroelektrarneList.map((data) => data.lastna_raba),
       backgroundColor: [
         "rgb(153, 255, 102)"

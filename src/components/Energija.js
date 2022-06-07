@@ -27,7 +27,7 @@ function Energija() {
     labels: EnergijaList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Elektricna energija letno",
       data: EnergijaList.map((data) => data.proizvodnja),
       backgroundColor: [
         "rgb(153, 255, 102)"

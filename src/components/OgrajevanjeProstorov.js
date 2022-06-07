@@ -29,7 +29,7 @@ function OgrevanjeProstorov() {
     labels: OgrevanjeProstorovList.map((data) => data.leto),
     datasets: [
     {
-      label: "Lokalno Ogrevanje",
+      label: "Lokalno ogrevanje",
       data: OgrevanjeProstorovList.map((data) => data.lokalno_ogrevanje),
       backgroundColor: [
         "rgb(153, 255, 102)"
