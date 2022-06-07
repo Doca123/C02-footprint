@@ -19,7 +19,6 @@ import ElektricnaEnergijaMesecno from "./components/ElektricnaEnergijaMesecno";
 import LastnaRabaHidroelektrarne from "./components/LastnaRabaHidroelektrarne";
 import LastnaRabaJedrske from "./components/LastnaRabaJedrske";
 import LastnaRabaTermoelektrarne from "./components/LastnaRabaTermoelektrarne";
-import ProizvodnjaHidroelektrarneLetna from "./components/ProizvodnjaHidroelektrarneLetna";
 import ProizvodnjaJedrskeLetna from "./components/ProizvodnjaJedrskeLetna";
 import ProizvodnjaTermoelektrarneLetna from "./components/ProizvodnjaTermoelektrarneLetna";
 import ProizvodnjaHidroelektrarneMesecna from "./components/ProizvodnjaHidroelektrarneMesecna";
