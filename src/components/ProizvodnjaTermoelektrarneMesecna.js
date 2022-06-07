@@ -23,7 +23,7 @@ function ProizvodnjaTermoelektrarneMesecna() {
 
 
   const data19={
-    labels: proizvodnjaTermoelektrarneMesecnaList.map((data) => data.leto),
+    labels: proizvodnjaTermoelektrarneMesecnaList.map((data) => data.mesec),
     datasets: [
     {
       label: "Proizvodnja",

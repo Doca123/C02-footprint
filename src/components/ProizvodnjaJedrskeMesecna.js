@@ -23,7 +23,7 @@ function ProizvodnjaJedrskeMesecna() {
 
 
   const data18={
-    labels: proizvodnjaJedrskeMesecnaList.map((data) => data.leto),
+    labels: proizvodnjaJedrskeMesecnaList.map((data) => data.mesec),
     datasets: [
     {
       label: "Proizvodnja",
