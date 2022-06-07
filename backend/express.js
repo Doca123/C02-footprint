@@ -223,7 +223,7 @@ app.get("/stats2", (req, res) => {
   });
 
   app.get("/stats18", (req, res) => {
-    db.query("SELECT * FROM proizvodnja_na_generatorju_jedrska_eletrana", (err, result) => {
+    db.query("SELECT * FROM proizvodnja_na_generatorju_jedrska_elektrana", (err, result) => {
       if (err) {
         console.log(err);
       } else {

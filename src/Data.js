@@ -1,3 +1,38 @@
+export const transportation = [
+    {
+        type: "Rail",
+        percent: 3
+    },
+    {
+        type: "Passenger cars",
+        percent: 41
+    },
+    {
+        type: "Medium and heavy trucks",
+        percent: 22
+    },
+    {
+        type: "Shipping",
+        percent: 11
+    },
+    {
+        type: "Aviation",
+        percent: 8
+    },
+    {
+        type: "Buses and minibuses",
+        percent: 7
+    },
+    {
+        type: "Light commercial vehicles",
+        percent: 5
+    },
+    {
+        type: "Two/three-wheelers",
+        percent: 3
+    }
+];
+
 export const DelezEnergijeZaOgrajevanjeProstorov = [
 {
     id: 1,
