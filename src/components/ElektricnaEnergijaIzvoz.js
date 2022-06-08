@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react";
 import Axios from "axios";
 import BarChart from "./BarChart";
-import { energijaIzvoz } from "../Data";
+
 
 function ElektricnaEnergijaIzvoz() {
 
   const [ElektricnaEnergijaIzvozList, setElektricnaEnergijaIzvozList] = useState([]);
-
-
-
 
   const fetchData = () => {
     Axios.get("http://localhost:3001/stats7").then((response) => {
@@ -17,8 +14,7 @@ function ElektricnaEnergijaIzvoz() {
   };
 
   useEffect(() => {
-    fetchData();
-    
+    fetchData();  
   }, []);
 
   const data1={
@@ -39,10 +35,10 @@ function ElektricnaEnergijaIzvoz() {
 
   return (
     <div className="App">
-              <div>
+            <div>
                 <BarChart chartData={data1} />
-              </div>
             </div>
+    </div>
   );
 }
 

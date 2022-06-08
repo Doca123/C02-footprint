@@ -83,9 +83,6 @@
 }
 ,{"type":"table","name":"elektricna_energija_vo_slovenija_mesecno","database":"co2-footprint","data":
 [
-{"Mesec":"Elektri?na energija (GWh), Slovenija, mes","Proizvodnja":null},
-{"Mesec":"","Proizvodnja":null},
-{"Mesec":"MESEC","Proizvodnja":"Proizvodnja na generatorju-skupaj"},
 {"Mesec":"2004M01","Proizvodnja":"1327.000"},
 {"Mesec":"2004M02","Proizvodnja":"1224.000"},
 {"Mesec":"2004M03","Proizvodnja":"1350.000"},
@@ -310,9 +307,6 @@
 }
 ,{"type":"table","name":"elektricna_energija_za_izvoz","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","izvoz":null},
-{"leto":"","izvoz":null},
-{"leto":"LETO","izvoz":"Izvoz"},
 {"leto":"1996","izvoz":"2526.000"},
 {"leto":"1997","izvoz":"2521.000"},
 {"leto":"1998","izvoz":"2609.000"},
@@ -343,9 +337,6 @@
 }
 ,{"type":"table","name":"elektricna_energija_za_uvoz","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","uvoz":null},
-{"leto":"","uvoz":null},
-{"leto":"LETO","uvoz":"Uvoz"},
 {"leto":"1996","uvoz":"859.000"},
 {"leto":"1997","uvoz":"825.000"},
 {"leto":"1998","uvoz":"715.000"},
@@ -376,9 +367,6 @@
 }
 ,{"type":"table","name":"gorivo_cestni_javni_linijski_prevoz","database":"co2-footprint","data":
 [
-{"prevozeni_kilometri":"Cestni javni linijski potni?ki prevoz (medkrajevni in mednarodni): linije, prevo?eni kilometri in porabljeno gorivo, Slovenija, letno","leto":null,"gorivo":null},
-{"prevozeni_kilometri":"","leto":null,"gorivo":null},
-{"prevozeni_kilometri":"MERITEV","leto":"LETO","gorivo":"Cestni javni linijski prevoz - SKUPAJ"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2010","gorivo":"50971"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2011","gorivo":"49359"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2012","gorivo":"47107"},
@@ -394,9 +382,6 @@
 }
 ,{"type":"table","name":"gorivo_medkrajevni_javni_linijski_prevoz","database":"co2-footprint","data":
 [
-{"prevozeni_kilometri":"Cestni javni linijski potni?ki prevoz (medkrajevni in mednarodni): linije, prevo?eni kilometri in porabljeno gorivo, Slovenija, letno","leto":null,"gorivo":null},
-{"prevozeni_kilometri":"","leto":null,"gorivo":null},
-{"prevozeni_kilometri":"MERITEV","leto":"LETO","gorivo":"Medkrajevni javni linijski prevoz"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2010","gorivo":"49979"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2011","gorivo":"48230"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2012","gorivo":"46179"},
@@ -412,9 +397,6 @@
 }
 ,{"type":"table","name":"gorivo_mednarodni_javni_linijski_prevoz","database":"co2-footprint","data":
 [
-{"prevozeni_kilometri":"Cestni javni linijski potni?ki prevoz (medkrajevni in mednarodni): linije, prevo?eni kilometri in porabljeno gorivo, Slovenija, letno","leto":null,"gorivo":null},
-{"prevozeni_kilometri":"","leto":null,"gorivo":null},
-{"prevozeni_kilometri":"MERITEV","leto":"LETO","gorivo":"Mednarodni javni linijski prevoz"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2010","gorivo":"991"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2011","gorivo":"1128"},
 {"prevozeni_kilometri":"Prevo?eni kilometri (1.000)","leto":"2012","gorivo":"928"},
@@ -430,9 +412,6 @@
 }
 ,{"type":"table","name":"lastna_raba_na_elektricna_energija","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","lastna_raba":null},
-{"leto":"","lastna_raba":null},
-{"leto":"LETO","lastna_raba":"Lastna raba"},
 {"leto":"1996","lastna_raba":"765.000"},
 {"leto":"1997","lastna_raba":"829.000"},
 {"leto":"1998","lastna_raba":"850.000"},
@@ -463,9 +442,6 @@
 }
 ,{"type":"table","name":"lastna_raba_na_elektricna_energija_hidroelektrane","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","lastna_raba":null},
-{"leto":"","lastna_raba":null},
-{"leto":"LETO","lastna_raba":"Lastna raba hidroelektrarne"},
 {"leto":"1996","lastna_raba":"52.000"},
 {"leto":"1997","lastna_raba":"45.000"},
 {"leto":"1998","lastna_raba":"50.000"},
@@ -496,9 +472,6 @@
 }
 ,{"type":"table","name":"lastna_raba_na_elektricna_energija_jedrska_elektrana","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","lastna_raba":null},
-{"leto":"","lastna_raba":null},
-{"leto":"LETO","lastna_raba":"Lastna raba jedrska elektrarna"},
 {"leto":"1996","lastna_raba":"203.000"},
 {"leto":"1997","lastna_raba":"234.000"},
 {"leto":"1998","lastna_raba":"232.000"},
@@ -529,9 +502,6 @@
 }
 ,{"type":"table","name":"lastna_raba_na_elektricna_energija_termoelektrane","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","lastna_raba":null},
-{"leto":"","lastna_raba":null},
-{"leto":"LETO","lastna_raba":"Lastna raba termoelektrarne"},
 {"leto":"1996","lastna_raba":"510.000"},
 {"leto":"1997","lastna_raba":"549.000"},
 {"leto":"1998","lastna_raba":"568.000"},
@@ -562,9 +532,6 @@
 }
 ,{"type":"table","name":"letna_proizvodnja_na_generatorju_hidroelektrane","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","proizvodnja":null},
-{"leto":"","proizvodnja":null},
-{"leto":"LETO","proizvodnja":"Proizvodnja na generatorju-hidroelektrarne"},
 {"leto":"1996","proizvodnja":"3668.000"},
 {"leto":"1997","proizvodnja":"3091.000"},
 {"leto":"1998","proizvodnja":"3450.000"},
@@ -595,9 +562,6 @@
 }
 ,{"type":"table","name":"letna_proizvodnja_na_generatorju_jedrska_elektrana","database":"co2-footprint","data":
 [
-{"leto":"Elektri?na energija (GWh), Slovenija, let","proizvodnja":null},
-{"leto":"","proizvodnja":null},
-{"leto":"LETO","proizvodnja":"Proizvodnja na generatorju-jedrska elektrarna"},
 {"leto":"1996","proizvodnja":"4562.000"},
 {"leto":"1997","proizvodnja":"5019.000"},
 {"leto":"1998","proizvodnja":"5019.000"},
@@ -658,7 +622,6 @@
 }
 ,{"type":"table","name":"proizvodnja_na_generatorju_hidroelektrane","database":"co2-footprint","data":
 [
-{"mesec":"MESEC;\"Proizvodnja na generatorju-hidroelektrarne\"","proizvodnja":null},
 {"mesec":"2004M01","proizvodnja":"236.000"},
 {"mesec":"2004M02","proizvodnja":"198.000"},
 {"mesec":"2004M03","proizvodnja":"296.000"},
@@ -883,9 +846,6 @@
 }
 ,{"type":"table","name":"proizvodnja_na_generatorju_jedrska_elektrana","database":"co2-footprint","data":
 [
-{"mesec":"Elektri?na energija (GWh), Slovenija, mes","proizvodnja":null},
-{"mesec":"","proizvodnja":null},
-{"mesec":"MESEC","proizvodnja":"Proizvodnja na generatorju-jedrska elektrarna"},
 {"mesec":"2004M01","proizvodnja":"523.000"},
 {"mesec":"2004M02","proizvodnja":"489.000"},
 {"mesec":"2004M03","proizvodnja":"522.000"},
@@ -1110,9 +1070,6 @@
 }
 ,{"type":"table","name":"proizvodnja_na_generatorju_termoelektrane","database":"co2-footprint","data":
 [
-{"mesec":"Elektri?na energija (GWh), Slovenija, mes","proizvodnja":null},
-{"mesec":"","proizvodnja":null},
-{"mesec":"MESEC","proizvodnja":"Proizvodnja na generatorju-termoelektrarne"},
 {"mesec":"2004M01","proizvodnja":"568.000"},
 {"mesec":"2004M02","proizvodnja":"537.000"},
 {"mesec":"2004M03","proizvodnja":"532.000"},
@@ -1337,7 +1294,6 @@
 }
 ,{"type":"table","name":"proizvodnja_na_pragu_skupaj","database":"co2-footprint","data":
 [
-{"leto":"LETO;\"Proizvodnja na pragu-SKUPAJ\"","proizvodnja":null},
 {"leto":"1996","proizvodnja":"11972.00"},
 {"leto":"1997","proizvodnja":"12349.00"},
 {"leto":"1998","proizvodnja":"12855.00"},

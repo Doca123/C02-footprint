@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="main">
       <Sidebar />
-      <div className="container">
+    <div className="container">
 
 <BrowserRouter>
       <Routes>
@@ -63,7 +63,7 @@ function App() {
           <Route path="transport" element={<Transport />} />
           <Route path="about" element={<About />} />
           </Routes>
-    </BrowserRouter>
+</BrowserRouter>
         
       </div>
     </div>
