@@ -12,25 +12,8 @@
                 "title": "About",
                 "icon": "bi-info-circle-fill",
                 "path": "/about"
-            },
-            {
-                "title": "Contact",
-                "icon": "bi-phone-fill",
-                "childrens": [
-                    {
-                        "title": "Facebook",
-                        "icon": "bi-facebook"
-                    },
-                    {
-                        "title": "Twitter",
-                        "icon": "bi-twitter"
-                    },
-                    {
-                        "title": "Instagram",
-                        "icon": "bi-instagram"
-                    }
-                ]
             }
+           
         ]
     },
     {

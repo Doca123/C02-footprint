@@ -183,3 +183,41 @@ input {
 .energiaj1 h3 {
   margin: 20px;
 }
+
+
+.abc {
+  position: relative;
+  background-image: url('../public/CarbonFootPrint.jpg');
+  background-size: auto;
+background-size: auto;
+  width: 1000px;
+  height: 370px;
+}
+
+.b {
+  position: absolute;
+  left: 20px;
+  width: 450px;
+  height: 330px;
+  border: 3px solid green;
+  background-image: url('../public/Carbon_footprint_icon.png');
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+} 
+
+.c {
+  position: absolute;
+  right: 20px;
+  width: 450px;
+  height: 330px;
+  border: 3px solid green;
+  background-color: white;
+  background-image: url('../public/download.png');
+  background-size: 400px;
+  background-repeat: no-repeat;
+ background-position: center;
+} 
