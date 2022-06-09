@@ -32,11 +32,16 @@
   
     $ npm install mysql
     
- 
+  Tudi morate shraniti sql databazo na vaš računalnik. SQL databaza s podatke je vo praktikum.json datoteka.
+  
 ## Zagon
  
-  Spletno stran zaženete s ukazom
+  Spletno stran zaženete preku 2 posebni terminale s ukaze:
+    
+    $node express.js 
+    
+    vo "backend" folderja, in
     
     $ npm start
     
-  
+    vo folder proekta.
